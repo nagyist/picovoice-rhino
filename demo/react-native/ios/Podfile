@@ -8,6 +8,8 @@ target 'RhinoDemo' do
   use_react_native!(:path => config["reactNativePath"])
 end
 
+pod 'Rhino-iOS', :podspec => 'https://raw.githubusercontent.com/Picovoice/rhino/ios-bitcode-spm/binding/ios/Rhino-iOS.podspec'
+
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
