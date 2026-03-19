@@ -21,10 +21,6 @@ Rhino is:
 * compact and computationally-efficient, making it perfect for IoT.
 * self-service. Developers and designers can train custom models using [Picovoice Console](https://console.picovoice.ai/).
 
-## Requirements
-
-- .NET 8.0
-
 ## Compatibility
 
 Platforms compatible with .NET Standard 2.0+:
